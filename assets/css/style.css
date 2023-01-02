@@ -73,8 +73,11 @@ header img {
 }
 
 .numbers p {
-    visibility: hidden;
     color: brown;
+}
+
+#first-hide {
+    visibility: hidden;
 }
 
 /* Footer */
