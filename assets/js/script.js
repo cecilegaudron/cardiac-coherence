@@ -18,4 +18,5 @@ function bigRound(x) {
 function normalRound(x) {
     x.style.height = "60%";
     x.style.width = "60%";
+    x.style.display = false;
 }
