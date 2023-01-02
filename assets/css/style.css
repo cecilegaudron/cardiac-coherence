@@ -98,18 +98,22 @@ header img {
 
 /* Section with More Informations */
 .more-information iframe {
-    width: 70%;
-    height: fit-content;
+    width: 100%;
+    height: 200px;
+    align-content: center;
 }
 
 /* Footer */
 footer {
     max-width: 100%;
     margin: auto;
-    padding: 10%;
     background-color: black;
     color: white;
 }
+ footer div {
+    padding: 0% !important;
+    text-align: center;
+ }
 
 footer span {
     margin: 2%;
@@ -117,21 +121,32 @@ footer span {
 }
 
 footer p {
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 2%;
+    font-size: 1.2rem;
 }
 
-footer a {
+#social-networks a {
     text-decoration: none;
     color: white;
+    font-size: 2rem;
 }
 
-footer a:hover {
-    text-decoration: none;
-    color: antiquewhite;
+#social-networks a:hover {
+    color:rgba(250, 55, 55, 0.6);
 }
 
 #educational {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding: 2%;
 }
+
+#educational a {
+    text-decoration: underline;
+    color: white;
+}
+
+#educational a:hover {
+    text-decoration: none;
+    color:rgba(250, 55, 55, 0.6);
+}
+
+
