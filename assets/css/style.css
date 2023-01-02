@@ -100,6 +100,19 @@ header img {
     font-size: 1.4rem;
 }
 
+/* Section with Informations How Doing It */
+.doing-it {
+    margin: auto;
+    padding: 4%;
+}
+
+
+/* Section with More Informations */
+.more-information {
+    margin: auto;
+    padding: 4%;
+}
+
 /* Footer */
 footer {
     max-width: 100%;
