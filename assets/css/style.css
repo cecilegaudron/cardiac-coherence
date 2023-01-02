@@ -11,6 +11,18 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+div {
+    margin: 4%;
+    padding: 4%;
+    text-align: justify;
+}
+
+section, article {
+    max-width: 100%;
+    margin: auto;
+    padding: 4%;
+}
+
 h1 {
     font-family: 'Anton', sans-serif;
     text-align: center;
@@ -45,21 +57,13 @@ header img {
 
 /* Introduction Section */
 .introduction {
-    padding: 4%;
-    margin: 4%;
     text-align: justify;
 }
 
 /* Section with Numbers Animation */
-.animation {
-    max-width: 100%;
-}
-
 .animation div {
     display: flex;
     flex-direction: column;
-    margin: 4%;
-    padding: 4%;
     text-align: center;
 }
 
@@ -84,33 +88,18 @@ header img {
 }
 
 /* Section with Health Benefits */
-.health-benefits {
-    margin: auto;
-    padding: 4%;
-}
-
-.health-benefits div {
-    margin: 4%;
-    padding: 4%;
-    text-align: justify;
-}
-
 .health-benefits li {
     list-style-type: square;
     font-size: 1.4rem;
 }
 
 /* Section with Informations How Doing It */
-.doing-it {
-    margin: auto;
-    padding: 4%;
-}
 
 
 /* Section with More Informations */
-.more-information {
-    margin: auto;
-    padding: 4%;
+.more-information iframe {
+    width: 70%;
+    height: fit-content;
 }
 
 /* Footer */
