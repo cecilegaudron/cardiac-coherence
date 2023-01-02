@@ -123,13 +123,16 @@ header img {
 
 /* Footer */
 footer {
-    max-width: 100%;
+    width: 100%;
     margin: auto;
     background-color: black;
     color: white;
+    position: absolute;
+    overflow: hidden;
 }
  footer div {
     padding: 0% !important;
+    margin: 0% !important;
     text-align: center;
  }
 
@@ -165,6 +168,10 @@ footer p {
 #educational a:hover {
     text-decoration: none;
     color:rgba(250, 55, 55, 0.6);
+}
+
+.copyright {
+    margin: 0% !important;
 }
 
 
