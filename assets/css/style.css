@@ -15,13 +15,16 @@ h1 {
     font-family: 'Anton', sans-serif;
     text-align: center;
     color: brown;
-    font-size: 3rem;
+    font-size: 3.6rem;
     text-transform: uppercase;
 }
 
 h2 {
     font-family: 'Anton', sans-serif;
     text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: brown;
 }
 
 p {
@@ -84,6 +87,17 @@ header img {
 .health-benefits {
     margin: auto;
     padding: 4%;
+}
+
+.health-benefits div {
+    margin: 4%;
+    padding: 4%;
+    text-align: justify;
+}
+
+.health-benefits li {
+    list-style-type: square;
+    font-size: 1.4rem;
 }
 
 /* Footer */
