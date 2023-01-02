@@ -13,17 +13,40 @@ body {
 
 h1 {
     font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: brown;
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Header */
+header {
+    width: 100%;
+    margin: 10px;
+}
+
+/* Introduction Section */
+.introduction {
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
 }
 
 /* Footer */
 footer {
-    margin: 2px;
+    margin: auto;
+    padding: 10px;
     background-color: black;
     color: white;
 }
 
 footer span {
     margin: 2px;
+    display: inline-block;
 }
 
 footer p {
@@ -40,4 +63,8 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: antiquewhite;
+}
+
+#educational {
+    font-size: 1.1rem;
 }
