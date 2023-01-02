@@ -80,6 +80,12 @@ header img {
     visibility: hidden;
 }
 
+/* Section with Health Benefits */
+.health-benefits {
+    margin: auto;
+    padding: 4%;
+}
+
 /* Footer */
 footer {
     max-width: 100%;
