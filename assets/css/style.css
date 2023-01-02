@@ -15,7 +15,14 @@ h1 {
     font-family: 'Anton', sans-serif;
     text-align: center;
     color: brown;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    text-align: center;
 }
 
 p {
@@ -26,33 +33,47 @@ p {
 /* Header */
 header {
     width: 100%;
-    margin: 10px;
+    margin: 4%;
+    padding: 4%;
+}
+
+header img {
+    align-content: center;
 }
 
 /* Introduction Section */
 .introduction {
-    padding: 10px;
-    margin: 10px;
+    padding: 4%;
+    margin: 4%;
     text-align: justify;
 }
+
+/* Section with Numbers Animation */
+.numbers {
+    background: aqua;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
 
 /* Footer */
 footer {
     margin: auto;
-    padding: 10px;
+    padding: 10%;
     background-color: black;
     color: white;
 }
 
 footer span {
-    margin: 2px;
+    margin: 2%;
     display: inline-block;
 }
 
 footer p {
     text-align: center;
     font-size: 1.5rem;
-    padding: 2px;
+    padding: 2%;
 }
 
 footer a {
