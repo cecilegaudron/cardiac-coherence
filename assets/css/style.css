@@ -15,25 +15,25 @@ h1 {
     font-family: 'Anton', sans-serif;
     text-align: center;
     color: brown;
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
 h2 {
     font-family: 'Anton', sans-serif;
-    font-size: 3rem;
+    font-size: 3.6rem;
     text-align: center;
 }
 
 p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 /* Header */
 header {
     max-width: 100%;
-    margin: 4%;
+    margin: auto;
     padding: 4%;
 }
 
@@ -63,11 +63,14 @@ header img {
 .numbers {
     margin: auto;
     padding: 8%;
-    background-color: aqua;
+    background-color: brown;
     width: 60%;
     height: 60%;
 }
 
+.numbers h2 {
+    color: antiquewhite;
+}
 
 /* Footer */
 footer {
