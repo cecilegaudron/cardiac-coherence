@@ -44,6 +44,11 @@ p {
     font-size: 1.4rem;
 }
 
+strong {
+    color: brown;
+    font-weight: bold;
+}
+
 /* Header */
 header {
     max-width: 100%;
