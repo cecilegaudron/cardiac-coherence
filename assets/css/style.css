@@ -76,22 +76,16 @@ header img {
 
 .numbers {
     margin: auto;
-    padding: 8%;
-    width: 60%;
-    height: 60%;
+    width: 40%;
+    background-color: white;
+    border-radius: 50%;
+    border: dashed 0.1rem brown;
+    margin-bottom: 3%;
 }
 
 .numbers h2 {
     color: brown;
     font-size: 4rem;
-}
-
-.numbers p {
-    color: brown;
-}
-
-#first-hide {
-    visibility: hidden;
 }
 
 /* Section with Health Benefits */
@@ -109,12 +103,27 @@ header img {
     justify-content: center;
 }
 
+#petals {
+    width: 50px;
+    transition: all 5s;
+}
+
+#petals:hover {
+    width: 350px;
+}
+
 .petals-img {
     width: 50px;
+    transition: all 5s;
 }
 
 .petals-img.zoom-in {
     width: 350px;
+}
+
+.petals-big {
+    width: 350px;
+
 }
 
 .animated-petals button {
