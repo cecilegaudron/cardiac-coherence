@@ -43,20 +43,37 @@ The animation starts when the start button is clicked
 https://www.w3schools.com/js/js_htmldom_eventlistener.asp
 */
 
-/*
+
 // Function for Start Animation
 
 // Declaration of Variables
+/*
 let smallSize = document.getElementsByClassName("petals.img");
 let bigSize = document.getElementsByClassName("petals-img.zoom-in");
-let fiveSeconds = setTimeout(startAnimation, 3000);
+let fiveSeconds = setInterval(startAnimation, 3000);
+*/
+document.getElementById("start").addEventListener("click", startAnimation);
 
-document.getElementById("start").addEventListener("click", setTimeout(startAnimation, 3000));
-
+let myPetals = document.getElementById("petals");
+let petalsWidth = myPetals.clientWidth;
+//let smallSize = myPetals.style.width("100px");
+/*
 function startAnimation() {
     alert("Hello Cruella!");
+    myPetals.style.width = "80%";
+}
+*/
+function startAnimation() {
+    //alert("Hello Cruella!");
+    //document.getElementById("petals").style.width = "300px";
+    if (petalsWidth >= 350) {
+        myPetals.style.width = "100px";
+        alert("Taille mini atteinte");
+    } else {
+        myPetals.style.width = "350px";
+        alert("Taille max atteinte");
+    }
   }
-  */
 
 /* Script for Stopping Animated Petals
 https://www.w3schools.com/js/js_timing.asp
@@ -64,11 +81,8 @@ https://www.w3schools.com/js/js_timing.asp
 document.getElementById("stop").addEventListener("click", stopAnimation);
 
 function stopAnimation() {
-    clearInterval();
-    alert("Cia Cruella!");
+    //clearInterval();
+    //alert("Cia Cruella!");
+    document.getElementById("petals").style.width = "100px";
   }
 
-  function startAnimation() {
-    
-    alert("Hello Cruella!");
-  }

@@ -110,11 +110,11 @@ header img {
 }
 
 .petals-img {
-    width: 30%;
+    width: 50px;
 }
 
 .petals-img.zoom-in {
-    width: 70%;
+    width: 350px;
 }
 
 .animated-petals button {
