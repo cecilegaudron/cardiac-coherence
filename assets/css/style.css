@@ -56,10 +56,9 @@ header {
     max-width: 100%;
     margin: auto;
     padding: 4%;
-}
-
-header img {
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 0.1rem brown;
 }
 
 /* Introduction Section */
@@ -67,8 +66,8 @@ header img {
     text-align: justify;
 }
 
-/* Section with Numbers Animation */
-.animation div {
+/* Section with Numbers */
+.numbers-container div {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -95,10 +94,18 @@ header img {
 }
 
 /* Section with Informations How Doing It and Animated Petals */
-.animated-petals {
+.practice {
     background-color: blanchedalmond;
-    justify-content: center;
     max-width: 100%;
+}
+
+.practice div {
+    justify-content: center;
+    display: flex;
+}
+
+.woman-breathe {
+    width: 50%;
 }
 
 #petals {
@@ -106,7 +113,7 @@ header img {
     transition: all 5s;
 }
 
-.animated-petals button {
+.practice button {
     width: 20%;
     margin: 4%;
     text-align: center;
@@ -189,4 +196,67 @@ footer p {
     margin: 0% !important;
 }
 
+/* Media Queries */
 
+/* Media Queries for Small Phones */
+@media only screen and (min-width: 576px) {
+    section, article {
+        padding: 2%;
+    }
+
+    div {
+        margin: 2%;
+        padding: 2%;
+    }
+
+    .more-information iframe {
+        height: 350px;
+    }
+ } 
+
+/* Media Queries for Tablets*/
+@media only screen and (min-width: 768px) {
+    section, article {
+        padding: 1%;
+    }
+
+    div {
+        margin: 1%;
+    }
+
+    .more-information iframe {
+        height: 500px;
+    }
+ } 
+
+/* Media Queries for Desktops */
+@media only screen and (min-width: 992px) { 
+    section, article {
+        padding: 0.5%;
+    }
+    header {
+        padding: 1%;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    div {
+        padding: 1%;
+    }
+
+    .numbers {
+        width: 15%;
+        margin-bottom: 1%;
+    }
+
+    .numbers h2 {
+        padding-bottom: 3%;
+    }
+
+    .breathe {
+        display: inline-flex !important;
+    }
+
+}
