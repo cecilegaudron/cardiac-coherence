@@ -46,5 +46,11 @@ TO BE COMPLETED
 ## Credits
 
 ### Content
+- GitHub and LinkedIn icons come from [Font Awesome](https://fontawesome.com/)
+- Fonts come from Google Fonts [Google Fonts](https://fonts.google.com/)
+- Text comes from C2Care Website [C2Care Website](https://www.c2.care/en/cardiac-coherence/)
+- Woman vectors are made by syarifahbrit for Freepik [Freepik Webiste](https://fr.freepik.com/vecteurs-libre/femmes-qui-font-exercices-respiratoires-inspirent-expirent-pour-soulagement-calme-du-stress_12849230.htm#query=cardiaque&position=9&from_view=search&track=sph)
+- Heart vector comes from Freepik [Freepik Website](https://fr.freepik.com/vecteurs-libre/ensemble-illustration-coeur-dessine-main_9866239.htm#query=coeur&position=32&from_view=search&track=sph)
+- Floral vector comes from Freepik [Freepik Website](https://fr.freepik.com/vecteurs-libre/collection-elements-floraux-feuilles_1019890.htm#query=p%C3%A9tale&position=5&from_view=search&track=sph)
 
 ### Media
