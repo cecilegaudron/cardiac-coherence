@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color:floralwhite;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -107,6 +107,14 @@ header img {
 
 .animated-petals div {
     justify-content: center;
+}
+
+.petals-img {
+    width: 30%;
+}
+
+.petals-img.zoom-in {
+    width: 70%;
 }
 
 .animated-petals button {
