@@ -24,7 +24,7 @@ function smallSize() {
 }
 
 function startAnimation() {
-    document.getElementById("bigSize").style.transitionDuration = "1s";
+    bigSize.apply();
 }
 
     //document.getElementById("petals").style.width = "300px";
