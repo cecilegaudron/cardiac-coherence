@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color:floralwhite;
+    background-color:whitesmoke;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -234,16 +234,21 @@ footer p {
     section, article {
         padding: 0.5%;
     }
+
+    div {
+        padding: 1%;
+    }
+
+    h2 {
+        padding-bottom: 1%;
+    }
+
     header {
         padding: 1%;
     }
 
     header img {
         width: 20%;
-    }
-
-    div {
-        padding: 1%;
     }
 
     .numbers {
@@ -257,6 +262,25 @@ footer p {
 
     .breathe {
         display: inline-flex !important;
+    }
+
+    .practice button {
+        width: 10%;
+        border-radius: 10%;
+    }
+
+    .more-information iframe {
+        padding: 0%;
+        height: 750px;
+    }
+
+    #educational {
+        padding: 0.5%;
+    }
+
+    footer span {
+        padding: 0.5%;
+        margin: 0%;
     }
 
 }
