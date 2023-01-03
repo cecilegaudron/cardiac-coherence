@@ -94,22 +94,17 @@ header img {
     font-size: 1.4rem;
 }
 
-/* Section with Informations How Doing It */
+/* Section with Informations How Doing It and Animated Petals */
 .animated-petals {
     background-color: blanchedalmond;
     justify-content: center;
+    max-width: 100%;
 }
 
 #petals {
     width: 150px;
     transition: all 5s;
 }
-
-/*
-#petals:hover {
-    width: 350px;
-}
-*/
 
 .animated-petals button {
     width: 20%;
