@@ -108,23 +108,11 @@ header img {
     transition: all 5s;
 }
 
+/*
 #petals:hover {
     width: 350px;
 }
-
-.petals-img {
-    width: 50px;
-    transition: all 5s;
-}
-
-.petals-img.zoom-in {
-    width: 350px;
-}
-
-.petals-big {
-    width: 350px;
-
-}
+*/
 
 .animated-petals button {
     width: 50%;

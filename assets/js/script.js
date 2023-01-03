@@ -5,35 +5,28 @@ https://www.w3schools.com/js/js_date_methods.asp
 let d = new Date();
 document.getElementById("year").innerHTML = d.getFullYear();
 
-/* Script for Animated Petals
-The animation starts when the start button is clicked
-https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+/* 
+Script for Animated Petals
 */
-
-
 // Function for Start Animation
 
-// Declaration of Variables
-/*
-let smallSize = document.getElementsByClassName("petals.img");
-let bigSize = document.getElementsByClassName("petals-img.zoom-in");
-let fiveSeconds = setInterval(startAnimation, 3000);
-*/
 document.getElementById("start").addEventListener("click", startAnimation);
 
 let myPetals = document.getElementById("petals");
 let petalsWidth = myPetals.clientWidth;
-//let smallSize = myPetals.style.width("100px");
-/*
-function startAnimation() {
-    alert("Hello Cruella!");
-    myPetals.style.width = "80%";
+
+function bigSize() {
+    myPetals.style.width = "350px";
 }
-*/
-/*
+
+function smallSize() {
+    myPetals.style.width = "50px";
+}
+
 function startAnimation() {
-    document.getElementsByClassName("petals-img").style.transitionDuration = "1s";
-    //alert("Hello Cruella!");
+    document.getElementById("bigSize").style.transitionDuration = "1s";
+}
+
     //document.getElementById("petals").style.width = "300px";
     /*if (petalsWidth >= 350) {
         myPetals.style.width = "100px";
@@ -45,7 +38,6 @@ function startAnimation() {
         alert("Taille max atteinte");
     } */
 
-
 /* Script for Stopping Animated Petals
 https://www.w3schools.com/js/js_timing.asp
 */
@@ -55,8 +47,8 @@ function stopAnimation() {
     //alert("Cia Cruella!");
     document.getElementById("petals").style.width = "100px";
   }
-
+/* SCRIPT OKAY WITH MOUSE OVER 
   function myFunction() {
     document.getElementById("petals").style.transitionDuration = "1s";
   }
-
+*/
