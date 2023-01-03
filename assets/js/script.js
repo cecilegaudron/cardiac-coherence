@@ -24,12 +24,12 @@ function normalRound(x) {
 */
 
 /* Script for Animations to Numbers
-*/
+
 function revealFirstText() {
     let x = document.getElementsById("first-hide");
     x.style.height = "80%";
 }
-    /*
+
     if (firstText.style.display === "none") {
         firstText.style.display = "block";
     } else {
@@ -37,3 +37,38 @@ function revealFirstText() {
     }
 }
 */
+
+/* Script for Animated Petals
+The animation starts when the start button is clicked
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+*/
+
+/*
+// Function for Start Animation
+
+// Declaration of Variables
+let smallSize = document.getElementsByClassName("petals.img");
+let bigSize = document.getElementsByClassName("petals-img.zoom-in");
+let fiveSeconds = setTimeout(startAnimation, 3000);
+
+document.getElementById("start").addEventListener("click", setTimeout(startAnimation, 3000));
+
+function startAnimation() {
+    alert("Hello Cruella!");
+  }
+  */
+
+/* Script for Stopping Animated Petals
+https://www.w3schools.com/js/js_timing.asp
+*/
+document.getElementById("stop").addEventListener("click", stopAnimation);
+
+function stopAnimation() {
+    clearInterval();
+    alert("Cia Cruella!");
+  }
+
+  function startAnimation() {
+    
+    alert("Hello Cruella!");
+  }
