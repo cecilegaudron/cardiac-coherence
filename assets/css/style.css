@@ -131,6 +131,7 @@ header {
     height: 200px;
     align-content: center;
     padding: 2%;
+    border: 0px;
 }
 
 .more-information a {
@@ -158,13 +159,15 @@ footer {
     text-align: center;
  }
 
-footer span {
-    margin: 2%;
-    display: inline-block;
-}
-
 footer p {
     font-size: 1.2rem;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1rem;
+    padding: 0.5% !important;
 }
 
 #social-networks a {
@@ -194,6 +197,8 @@ footer p {
 
 .copyright {
     margin: 0% !important;
+    display: flex;
+    justify-content: center;
 }
 
 /* Media Queries */
@@ -277,10 +282,4 @@ footer p {
     #educational {
         padding: 0.5%;
     }
-
-    footer span {
-        padding: 0.5%;
-        margin: 0%;
-    }
-
 }
