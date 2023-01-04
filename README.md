@@ -1,13 +1,12 @@
 # Cardiac Coherence
 This is my project for PP2. It is a one-page informative website on the subject of cardiac coherence. I am an adept of this breathing technique and I want to present it in a simple and concise way to Internet users.
 
-SCREENSHOTS WEBSITE RESPONSIVE
+![Responsive Website](assets/screenshots/responsive-website.png)
 
 ## Wireframes
 I would like a one-page website because I don't have a lot of content so it's not wise to have several pages for a few informations. So the user only has to scroll on the page to see all the information. 
 
 ## Features
-
 My site has only one page. The user can find illustrations, interactive elements as well as informative text.My page is divided into several sections:
 
 - __What is Cardiac Coherence__
@@ -16,20 +15,37 @@ This part briefly explains what cardiac coherence is. Without going into details
 - __3 important numbers__
 Here the user can learn about 3 very important numbers in cardiac coherence which are: 365. This is a technical way to remember how to practice cardiac coherence. 365 days in the year for a daily practice but especially 3 times a day, 6 breaths per minute, 5 minutes duration. 
 
+![Section with important numbers](assets/screenshot/numbers.png)
+
 - __Health Benefits__
 This section lists some of the recognized benefits of the daily practice of cardiac coherence.
 
 - __How is it working?__
-This section goes into the details of the practice. The user will be able to know exactly how to perform cardiac coherence independently. A video is also available, which the user can watch directly on the page. The video does not start automatically. 
+This section goes into the details of the practice. The user will be able to know exactly how to perform cardiac coherence independently. 
+
+- __In pratice__
+This section aims to show simply how to achieve heart coherence with short sentences and two drawings to illustrate.
+Moreover, an animation is present to guide the user during his practice. By pressing the Start button the animation starts. During 5 seconds, the petals will grow, the user must breathe in during this time. Then, during 5 seconds, the petals will shrink, the user must then exhale. The animation lasts in a loop for 5 minutes. 
+
+![Illustrations for the practice section](assets/screenshot/woman.png)
+
+![Petals animated with Start and Stop buttons](assets/screenshot/animation-petals.png)
+
+- __Want to know more?__
+The user can visit an external website to know more about the subject. A video is also available, which the user can watch directly on the page. The video does not start automatically. The video is in english and is about the benefits of the cardiac coherence explain by a doctor.
+
+![More informations section with video](assets/screenshot/information-video.png)
 
 ### Existing Features
 
-- __header__
+- __Header__
 My header displays the website logo. There is no navigation or link on the logo as this is a single page site.
 
-- __footer__
+- __Footer__
 The footer displays the copyright with my name and the current year. This functionality is realized with a JavaScript script.
 There are also the logos of my GitHub and LinkedIn accounts. Both links open in windows external to the site.
+
+![Webiste footer with copyright and social networks links](assets/screenshot/footer.png)
 
 ### Features Left to Implement
 TO BE COMPLETED
