@@ -14,29 +14,30 @@ document.getElementById("start").addEventListener("click", startAnimation);
 
 let myPetals = document.getElementById("petals");
 let petalsWidth = myPetals.clientWidth;
+const bigSize = "350px";
+const smallSize = "50px";
 
-function bigSize() {
+function goToBigSize() {
     myPetals.style.width = "350px";
 }
 
-function smallSize() {
+function goToSmallSize() {
     myPetals.style.width = "50px";
 }
 
 function startAnimation() {
-    bigSize.apply();
+    goToBigSize.apply();
 }
 
-    //document.getElementById("petals").style.width = "300px";
-    /*if (petalsWidth >= 350) {
-        myPetals.style.width = "100px";
-        myPetals.style.transitionDuration = "5s";
-        alert("Taille mini atteinte");
+function animationLoop() {
+    if (petalsWidth < bigSize) {
+        //goToBigSize.apply();
+        alert("go to 350");
     } else {
-        myPetals.style.width = "350px";
-        style.transitionDuration = "5s";
-        alert("Taille max atteinte");
-    } */
+        //goToSmallSize.apply();
+        alert(" go to 50!");
+    }
+}
 
 /* Script for Stopping Animated Petals
 https://www.w3schools.com/js/js_timing.asp
