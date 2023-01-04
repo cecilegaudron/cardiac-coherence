@@ -7,48 +7,43 @@ document.getElementById("year").innerHTML = d.getFullYear();
 
 /* 
 Script for Animated Petals
+Script inspirated from the Timing Methods on W3Schools.com
+https://www.w3schools.com/js/js_timing.asp
 */
 // Function for Start Animation
 
 document.getElementById("start").addEventListener("click", startAnimation);
 
 let myPetals = document.getElementById("petals");
-//let petalsWidth = myPetals.clientWidth;
-//let bigSize = setTimeout(goToBigSize.apply(), 2000);
-//let smallSize = setTimeout(goToSmallSize.apply(), 2000);
+let animation;
 
 // Function to Go to the Big Size
 function goToBigSize() {
     myPetals.style.width = "350px";
-    console.log("fnction go to BIG size OKAY");
 }
 
 // Function to Go to the Small Size
 function goToSmallSize() {
-    myPetals.style.width = "50px";
-    console.log("fnction go to SMALL size OKAY");
+    myPetals.style.width = "150px";
+}
+
+// Function to Repeat the Animation During 5 Minutes
+function animationLoop() {
+    setInterval(startAnimation, 5000); 
 }
 
 // Function to Start the Animation with Big Size - Wait - Go to Small Size
 function startAnimation() {
     goToBigSize.apply(); 
-    console.log("gotobigsize OKAY");
 
-    setTimeout(goToSmallSize, 8000); 
-    console.log("gotosmallsize OKAY");
+    setTimeout(goToSmallSize, 5000); 
 
-    //setInterval(goToBigSize.apply(), 8000); 
-    //console.log("go to big size again OKAY");
-
+    animation = setInterval(animationLoop, 5000);
 }
 
-
-/* Script for Stopping Animated Petals
-https://www.w3schools.com/js/js_timing.asp
-*/
+// Function to Stop the Animation
 document.getElementById("stop").addEventListener("click", stopAnimation);
 
 function stopAnimation() {
-    console.log("Stop the animation");
-    clearInterval();
+    clearInterval(animation);
   }
