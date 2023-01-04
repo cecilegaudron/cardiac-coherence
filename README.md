@@ -48,16 +48,34 @@ There are also the logos of my GitHub and LinkedIn accounts. Both links open in 
 ![Webiste footer with copyright and social networks links](assets/screenshot/footer.png)
 
 ### Features Left to Implement
-TO BE COMPLETED
+- Add the possibility for the user to enter their own time data for the animation. Indeed, for some cases (difficulties to fall asleep or to wake up in the morning) it is possible to modify the 5 seconds to slow down or speed up the breathing time.
+I would have liked to propose this possibility at this stage of the project but I have a lot of difficulties with the JavaScript. My mentor reassured me that with the learning of Python, the logic of JavaScript would be more understandable.
 
 ## Testing
-
+| Problems                                                                        | Actions                                                                                                                                                                                                                         | Results                         |
+|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Shapes with numbers are not balanced                                            | Remove some padding and margin values in containers                                                                                                                                                                             | It's better but not perfect     |
+| The animation grows but does not shrink when the function in question is called | Added SetTimeout to give a time value so that the browser has time to launch the petals shrink                                                                                                                                  | The animation grows and shrinks |
+| Animation grows and shrinks but does not repeat                                 | Adding SetInterval with a time data                                                                                                                                                                                             | The animation is in loop        |
+| The animation does not stop                                                     | Creation of two variables, one for setTimeout and another one for setInterval in order to add these variables to clearTimeout and clearInterval. And declaration of clearTimeout and clearTimeout in the stopAnimation function | The animation stops completely  |
 
 ### Validator Testing
+- HTML
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
+- CSS
+No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+- JavaScript
+No errors were found when passing through the official [JSHint validator](https://jshint.com/)
 
 ### Unfixed Bugs
+No unfixed Bugs
 
 ## Deployment
+The website has been deployed on GitHub pages. The steps of the deployment are as follows:
+	- On the project on GitHub, go to Settings
+	- And then on GitHub Pages. Select the "Main" branch and save the settings.
+
+The site is live here : https://cecilegaudron.github.io/cardiac-coherence/
 
 ## Credits
 
@@ -68,5 +86,3 @@ TO BE COMPLETED
 - Woman vectors are made by syarifahbrit for Freepik [Freepik Webiste](https://fr.freepik.com/vecteurs-libre/femmes-qui-font-exercices-respiratoires-inspirent-expirent-pour-soulagement-calme-du-stress_12849230.htm#query=cardiaque&position=9&from_view=search&track=sph)
 - Heart vector comes from Freepik [Freepik Website](https://fr.freepik.com/vecteurs-libre/ensemble-illustration-coeur-dessine-main_9866239.htm#query=coeur&position=32&from_view=search&track=sph)
 - Floral vector comes from Freepik [Freepik Website](https://fr.freepik.com/vecteurs-libre/collection-elements-floraux-feuilles_1019890.htm#query=p%C3%A9tale&position=5&from_view=search&track=sph)
-
-### Media
