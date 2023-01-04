@@ -16,6 +16,7 @@ document.getElementById("start").addEventListener("click", startAnimation);
 
 let myPetals = document.getElementById("petals");
 let animation;
+let loop;
 
 // Function to Go to the Big Size
 function goToBigSize() {
@@ -36,14 +37,15 @@ function animationLoop() {
 function startAnimation() {
     goToBigSize.apply(); 
 
-    setTimeout(goToSmallSize, 5000); 
+    animation = setTimeout(goToSmallSize, 5000); 
 
-    animation = setInterval(animationLoop, 5000);
+    loop = setInterval(animationLoop, 5000);
 }
 
 // Function to Stop the Animation
 document.getElementById("stop").addEventListener("click", stopAnimation);
 
 function stopAnimation() {
-    clearInterval(animation);
+    clearTimeout(animation);
+    clearInterval(loop);
   }
