@@ -4,7 +4,7 @@ This is my project for PP2. It is a one-page informative website on the subject 
 ![Responsive Website](assets/screenshots/responsive-website.png)
 
 ## Wireframes
-I would like a one-page website because I don't have a lot of content so it's not wise to have several pages for a few informations. So the user only has to scroll on the page to see all the information. 
+I would like a one-page website because I don't have a lot of content so it's not wise to have several pages for a few informations. So the user only has to scroll on the page to see all the informations. 
 
 ![Wireframes](assets/screenshots/wireframe1.jpg)
 
@@ -13,7 +13,7 @@ I would like a one-page website because I don't have a lot of content so it's no
 ![Wireframes](assets/screenshots/wireframe3.jpg)
 
 ## Features
-My site has only one page. The user can find illustrations, interactive elements as well as informative text.My page is divided into several sections:
+My site has only one page. The user can find illustrations, interactive elements as well as informative text. My page is divided into several sections:
 
 - __What is Cardiac Coherence__
 This part briefly explains what cardiac coherence is. Without going into details, the user can find general information about this breathing technique.
