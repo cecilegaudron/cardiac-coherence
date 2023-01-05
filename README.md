@@ -21,7 +21,7 @@ This part briefly explains what cardiac coherence is. Without going into details
 - __3 important numbers__
 Here the user can learn about 3 very important numbers in cardiac coherence which are: 365. This is a technical way to remember how to practice cardiac coherence. 365 days in the year for a daily practice but especially 3 times a day, 6 breaths per minute, 5 minutes duration. 
 
-![Section with important numbers](assets/screenshot/numbers.png)
+![Section with important numbers](assets/screenshots/numbers.png)
 
 - __Health Benefits__
 This section lists some of the recognized benefits of the daily practice of cardiac coherence.
@@ -33,14 +33,14 @@ This section goes into the details of the practice. The user will be able to kno
 This section aims to show simply how to achieve heart coherence with short sentences and two drawings to illustrate.
 Moreover, an animation is present to guide the user during his practice. By pressing the Start button the animation starts. During 5 seconds, the petals will grow, the user must breathe in during this time. Then, during 5 seconds, the petals will shrink, the user must then exhale. The animation lasts in a loop for 5 minutes. 
 
-![Illustrations for the practice section](assets/screenshot/woman.png)
+![Illustrations for the practice section](assets/screenshots/woman.png)
 
-![Petals animated with Start and Stop buttons](assets/screenshot/animation-petals.png)
+![Petals animated with Start and Stop buttons](assets/screenshots/animation-petals.png)
 
 - __Want to know more?__
 The user can visit an external website to know more about the subject. A video is also available, which the user can watch directly on the page. The video does not start automatically. The video is in english and is about the benefits of the cardiac coherence explain by a doctor.
 
-![More informations section with video](assets/screenshot/information-video.png)
+![More informations section with video](assets/screenshots/information-video.png)
 
 ### Existing Features
 
@@ -51,7 +51,7 @@ My header displays the website logo. There is no navigation or link on the logo 
 The footer displays the copyright with my name and the current year. This functionality is realized with a JavaScript script.
 There are also the logos of my GitHub and LinkedIn accounts. Both links open in windows external to the site.
 
-![Webiste footer with copyright and social networks links](assets/screenshot/footer.png)
+![Webiste footer with copyright and social networks links](assets/screenshots/footer.png)
 
 ### Features Left to Implement
 - Add the possibility for the user to enter their own time data for the animation. Indeed, for some cases (difficulties to fall asleep or to wake up in the morning) it is possible to modify the 5 seconds to slow down or speed up the breathing time.
