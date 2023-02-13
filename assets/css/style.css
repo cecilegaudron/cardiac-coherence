@@ -73,19 +73,22 @@ header {
     text-align: center;
 }
 
-.numbers {
+.rounded-circle {
     margin: auto;
-    width: 40%;
-    background-color: white;
-    border-radius: 50%;
+    background-color:blanchedalmond;
     border: dashed 0.1rem brown;
-    margin-bottom: 3%;
+    width: 70%;
 }
 
-.numbers h2 {
+.numbers-round {
+    margin-bottom: 2%;
+}
+
+.numbers-info h2 {
     color: brown;
     font-size: 4rem;
 }
+
 
 /* Section with Health Benefits */
 .health-benefits li {
