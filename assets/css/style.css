@@ -276,7 +276,7 @@ footer p {
     }
 
     .rounded-circle {
-        width: 50%;
+        width: 65%;
     }
 
     .breathe {
@@ -295,5 +295,12 @@ footer p {
 
     #educational {
         padding: 0.5%;
+    }
+}
+
+/* Media Queries for Extra Large Screens */
+@media only screen and (min-width: 1200px) { 
+    .rounded-circle {
+        width: 55%;
     }
 }
