@@ -111,9 +111,33 @@ header {
     width: 50%;
 }
 
-#petals {
+/* #petals {
     width: 150px;
     transition: all 5s;
+}
+*/
+
+#petals {
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-name: grow;
+    transition: all 5s;
+    transition-delay: 0.2s;
+    animation-iteration-count: 5000s;
+    /* animation-play-state: paused; */
+}
+
+@keyframes grow {
+    from {
+        width: 150px;
+    }
+    to {
+        width: 350px;
+    }
+}
+
+#animation {
+    overflow: hidden;
 }
 
 .practice button {

@@ -49,3 +49,12 @@ function stopAnimation() {
     clearTimeout(animation);
     clearInterval(loop);
   }
+
+  // jQuery code for petals animation
+$("start").click(function(){
+	startAnimation();
+});
+
+$("stop").click(function(){
+	stopAnimation();
+});
