@@ -123,8 +123,8 @@ header {
     animation-name: grow;
     transition: all 5s;
     transition-delay: 0.2s;
-    animation-iteration-count: 5000s;
-    /* animation-play-state: paused; */
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
 }
 
 @keyframes grow {
