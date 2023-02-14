@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     // jQuery code for petals animation
     $("#start").click(function() {
-	    $("#petals").css("animation-play-state", "running");
+	    $("#petals").css("animation-play-state", "running").css();
     });
 
     $("#stop").click(function() {
