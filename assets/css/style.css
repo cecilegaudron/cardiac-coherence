@@ -220,6 +220,10 @@ footer p {
     .more-information iframe {
         height: 350px;
     }
+
+    .rounded-circle {
+        width: 50%;
+    }
  } 
 
 /* Media Queries for Tablets*/
@@ -234,6 +238,10 @@ footer p {
 
     .more-information iframe {
         height: 500px;
+    }
+
+    .rounded-circle {
+        width: 35%;
     }
  } 
 
@@ -259,13 +267,16 @@ footer p {
         width: 20%;
     }
 
-    .numbers {
-        width: 15%;
-        margin-bottom: 1%;
+    .numbers-container {
+        display: flex !important;
     }
 
-    .numbers h2 {
-        padding-bottom: 3%;
+    .numbers-round {
+        margin: auto;
+    }
+
+    .rounded-circle {
+        width: 50%;
     }
 
     .breathe {
