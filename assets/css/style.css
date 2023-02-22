@@ -71,17 +71,13 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0 !important;
 }
 
 .rounded-circle {
     margin: auto;
-    background-color:blanchedalmond;
-    border: dashed 0.1rem brown;
-    width: 70%;
-}
-
-.numbers-round {
-    margin-bottom: 2%;
+    background-color:#f8f9fa;
+    width: 45%;
 }
 
 .numbers-info h2 {
@@ -243,7 +239,7 @@ footer p {
     }
 
     .rounded-circle {
-        width: 50%;
+        width: 30%;
     }
  } 
 
@@ -262,12 +258,16 @@ footer p {
     }
 
     .rounded-circle {
-        width: 35%;
+        width: 80%;
     }
 
     .btn-danger {
         width: 20%;
         margin: 2%;
+    }
+
+    .numbers-container {
+        display: flex !important;
     }
  } 
 
@@ -297,16 +297,12 @@ footer p {
         width: 20%;
     }
 
-    .numbers-container {
-        display: flex !important;
-    }
-
     .numbers-round {
         margin: auto;
     }
 
     .rounded-circle {
-        width: 65%;
+        width: 50%;
     }
 
     .breathe {
@@ -335,6 +331,6 @@ footer p {
 /* Media Queries for Extra Large Screens */
 @media only screen and (min-width: 1200px) { 
     .rounded-circle {
-        width: 55%;
+        width: 40%;
     }
 }
