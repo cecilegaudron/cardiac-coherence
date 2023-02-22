@@ -111,19 +111,13 @@ header {
     width: 50%;
 }
 
-/* #petals {
-    width: 150px;
-    transition: all 5s;
-}
-*/
+/* Petals animation with keyframes */
 
 #petals {
     animation-duration: 5s;
     animation-direction: alternate;
     animation-name: grow;
-    transition: all 5s;
-    transition-delay: 0.2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 30;
     animation-play-state: paused;
 }
 
@@ -140,16 +134,9 @@ header {
     overflow: hidden;
 }
 
-.practice button {
-    width: 20%;
-    margin: 4%;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: white;
-    background-color: brown;
-    border: 1rem solid brown;
-    border-radius: 6%;
+.btn-danger {
+    width: 30%;
+    margin: 2%;
 }
 
 /* Section with More Informations */
@@ -267,6 +254,11 @@ footer p {
     .rounded-circle {
         width: 35%;
     }
+
+    .btn-danger {
+        width: 20%;
+        margin: 2%;
+    }
  } 
 
 /* Media Queries for Desktops */
@@ -307,11 +299,6 @@ footer p {
         display: inline-flex !important;
     }
 
-    .practice button {
-        width: 10%;
-        border-radius: 10%;
-    }
-
     .more-information iframe {
         padding: 0%;
         height: 750px;
@@ -319,6 +306,11 @@ footer p {
 
     #educational {
         padding: 0.5%;
+    }
+
+    .btn-danger {
+        width: 10%;
+        margin: 2%;
     }
 }
 
