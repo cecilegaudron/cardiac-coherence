@@ -117,6 +117,25 @@ header {
     width: 50%;
 }
 
+.breathe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 !important;
+}
+
+#animation-objects {
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.btn-danger {
+    width: 30%;
+    margin: 2%;
+}
+
+
 /* Petals animation with keyframes */
 
 #petals {
@@ -132,17 +151,12 @@ header {
         width: 150px;
     }
     to {
-        width: 350px;
+        width: 300px;
     }
 }
 
 #animation {
     overflow: hidden;
-}
-
-.btn-danger {
-    width: 30%;
-    margin: 2%;
 }
 
 /* Section with More Informations */
