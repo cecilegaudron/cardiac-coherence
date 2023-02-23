@@ -298,10 +298,16 @@ footer p {
 @media only screen and (min-width: 768px) {
     section, article {
         padding: 1%;
+        position: relative;
     }
 
     div {
         margin: 1%;
+    }
+
+    header {
+        position: relative;
+        background-color: white;
     }
 
     .more-information iframe {
